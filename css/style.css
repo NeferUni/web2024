@@ -35,6 +35,7 @@ body {
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 
@@ -58,3 +59,31 @@ body {
 .textos a:hover {
     text-decoration: underline;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 500px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    width: 500px;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  #tabla {
+    margin-top: 20px;
+    text-align: center;
+  }
